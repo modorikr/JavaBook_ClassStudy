@@ -5,10 +5,17 @@ public class P211_ObjectExample1 {
 		// TODO Auto-generated method stub
 		StringBuffer obj;
 		obj = new StringBuffer("Hey Java!");
+		
+		/* 예제 자체 
 		obj.deleteCharAt(1);
 		obj.deleteCharAt(1);
 		obj.insert(1, 'i');
 		System.out.println(obj);
+		*/
+		obj.deleteCharAt(0);
+		obj.replace(0, 2, "Hi");
+		System.out.println(obj);
+		
 	}
 
 }
