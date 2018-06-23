@@ -2,18 +2,18 @@
 class P215_ClassExample1 {
 	public static void main(String args[]){
 		
-		P213_GoodsStock obj;		// Å¬·¡¼­ µ¥ÀÌÅÍ Å¸ÀÔ ¼±¾ğ
+		P213_GoodsStock obj;		// Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
-		obj = new P213_GoodsStock();	//Å¬·¡½º °´Ã¼ »ı¼º
-		obj.goodsCode = "52115";		//ÇÊµå ÃÊ±âÈ­
-		obj.stockNum = 200;			//ÇÊµå ÃÊ±âÈ­
+		obj = new P213_GoodsStock();	//Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
+		obj.goodsCode = "52115";		//ï¿½Êµï¿½ ï¿½Ê±ï¿½È­
+		obj.stockNum = 200;			//ï¿½Êµï¿½ ï¿½Ê±ï¿½È­ê°•í‰
 
-		System.out.println("»óÇ°ÄÚµå: " + obj.goodsCode);
-		System.out.println("Àç°í¼ö·®: " + obj.stockNum);
+		System.out.println("ï¿½ï¿½Ç°ï¿½Úµï¿½: " + obj.goodsCode);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: " + obj.stockNum);
 		
-		obj.addStock(1000);		//¸Ş¼­µå È£Ãâ
-		System.out.println("»óÇ°ÄÚµå: " + obj.goodsCode);
-		System.out.println("Àç°í¼ö·®: " + obj.stockNum);
+		obj.addStock(1000);		//ï¿½Ş¼ï¿½ï¿½ï¿½ È£ï¿½ï¿½
+		System.out.println("ï¿½ï¿½Ç°ï¿½Úµï¿½: " + obj.goodsCode);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: " + obj.stockNum);
 		
 	}
 }
