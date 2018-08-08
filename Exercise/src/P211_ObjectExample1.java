@@ -6,7 +6,7 @@ public class P211_ObjectExample1 {
 		StringBuffer obj;
 		obj = new StringBuffer("Hey Java!");
 		
-		/* ¿¹Á¦ ÀÚÃ¼ 
+		/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ 
 		obj.deleteCharAt(1);
 		obj.deleteCharAt(1);
 		obj.insert(1, 'i');
@@ -14,6 +14,8 @@ public class P211_ObjectExample1 {
 		*/
 		obj.deleteCharAt(0);
 		obj.replace(0, 2, "Hi");
+		System.out.println(obj);
+		
 		System.out.println(obj);
 		
 	}

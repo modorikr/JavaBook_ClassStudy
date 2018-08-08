@@ -1,8 +1,8 @@
 
 class P213_GoodsStock {
 	
-	String goodsCode; 			//
-	int	stockNum;			//
+	String goodsCode; 	
+	int	stockNum;			
 	
 	void addStock(int amount){
 		stockNum += amount;
